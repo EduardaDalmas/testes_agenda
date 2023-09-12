@@ -11,7 +11,7 @@ test('Adicionar contato', () => {
 });
 
 // Cenário de teste de remover um contato existente na agenda
-test('Remover contato', () => {
+test('Remover contato existente', () => {
     minhaAgenda.remover_contato('João');
     expect(minhaAgenda.buscar_contato('João')).toBeUndefined();
 });
