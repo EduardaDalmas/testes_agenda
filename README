@@ -1,0 +1,8 @@
+## Para instalar as dependências
+
+- npm init -y
+- npm i jest
+
+## Para rodar o projeto
+
+- npx jest
